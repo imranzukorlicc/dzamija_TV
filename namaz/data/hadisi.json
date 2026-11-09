@@ -1,0 +1,110 @@
+{
+  "napomena": "Svaki hadis: arapski (nije obavezan), tekst, prenosilac (ko ga je rekao/prenio), izvor (ko ga bilježi) i slika (nije obavezna, npr. assets/hadis/slika1.jpg). Prije javnog prikaza provjerite tekstove sa imamom.",
+  "hadisi": [
+    {
+      "arapski": "إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِ",
+      "tekst": "Djela se cijene prema namjerama, i svakome pripada ono što je naumio.",
+      "prenosilac": "Omer ibn el-Hattab, r.a.",
+      "izvor": "Buhari i Muslim",
+      "slika": "assets/hadis/primjer.jpg"
+    },
+    {
+      "arapski": "الطُّهُورُ شَطْرُ الْإِيمَانِ",
+      "tekst": "Čistoća je polovina imana.",
+      "prenosilac": "Ebu Malik el-Eš'ari, r.a.",
+      "izvor": "Muslim",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Musliman je onaj od čijeg jezika i ruke su sigurni drugi muslimani.",
+      "prenosilac": "Abdullah ibn Amr, r.a.",
+      "izvor": "Buhari i Muslim",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Niko od vas neće vjerovati dok ne bude želio svome bratu ono što želi sebi.",
+      "prenosilac": "Enes ibn Malik, r.a.",
+      "izvor": "Buhari i Muslim",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Ko vjeruje u Allaha i u Sudnji dan, neka govori dobro ili neka šuti.",
+      "prenosilac": "Ebu Hurejre, r.a.",
+      "izvor": "Buhari i Muslim",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Najbolji među vama je onaj ko nauči Kur'an i drugima ga uči.",
+      "prenosilac": "Osman ibn Affan, r.a.",
+      "izvor": "Buhari",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Osmijeh koji uputiš svome bratu je sadaka.",
+      "prenosilac": "Ebu Zerr, r.a.",
+      "izvor": "Tirmizi",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Ko krene putem tragajući za znanjem, Allah mu time olakša put do Dženneta.",
+      "prenosilac": "Ebu Hurejre, r.a.",
+      "izvor": "Muslim",
+      "slika": ""
+    },
+    {
+      "arapski": "الدُّعَاءُ هُوَ الْعِبَادَةُ",
+      "tekst": "Dova je ibadet.",
+      "prenosilac": "En-Nu'man ibn Bešir, r.a.",
+      "izvor": "Tirmizi i Ebu Davud",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Allahu su najdraža ona djela koja su stalna, makar bila mala.",
+      "prenosilac": "Aiša, r.a.",
+      "izvor": "Buhari i Muslim",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Nije jak onaj ko obara druge, nego je jak onaj ko se savlada u srdžbi.",
+      "prenosilac": "Ebu Hurejre, r.a.",
+      "izvor": "Buhari i Muslim",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Ko ne zahvaljuje ljudima, ne zahvaljuje ni Allahu.",
+      "prenosilac": "Ebu Hurejre, r.a.",
+      "izvor": "Ebu Davud i Tirmizi",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Allah ne gleda u vaša tijela ni u vaša lica, nego gleda u vaša srca i vaša djela.",
+      "prenosilac": "Ebu Hurejre, r.a.",
+      "izvor": "Muslim",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Prvo za šta će čovjek biti pitan na Sudnjem danu jeste namaz.",
+      "prenosilac": "Ebu Hurejre, r.a.",
+      "izvor": "Tirmizi i Nesai",
+      "slika": ""
+    },
+    {
+      "arapski": "",
+      "tekst": "Ko uputi na dobro, ima nagradu kao onaj ko ga učini.",
+      "prenosilac": "Ebu Mes'ud el-Ensari, r.a.",
+      "izvor": "Muslim",
+      "slika": ""
+    }
+  ]
+}

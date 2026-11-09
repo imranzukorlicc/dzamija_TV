@@ -1,0 +1,23 @@
+{
+  "naziv": "DŽAMIJA SELAKOVAC",
+  "vremenskaZona": "Europe/Belgrade",
+  "hidzretPomak": 0,
+  "hadisSekundi": 20,
+  "sinhronizacijaMinuta": 30,
+  "oznake": {
+    "sabah": "SABAH-ZORA",
+    "izlazak": "IZL. SUNCA",
+    "podne": "PODNE",
+    "ikindija": "IKINDIJA",
+    "aksam": "AKŠAM",
+    "jacija": "JACIJA"
+  },
+  "sljedeciNamaz": {
+    "sabah": "SABAH-ZORA",
+    "izlazak": "IZL. SUNCA",
+    "podne": "PODNE",
+    "ikindija": "IKINDIJA",
+    "aksam": "AKŠAM",
+    "jacija": "JACIJA"
+  }
+}
