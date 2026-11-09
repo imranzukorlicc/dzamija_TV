@@ -3,6 +3,7 @@
   "vremenskaZona": "Europe/Belgrade",
   "hidzretPomak": 0,
   "hadisSekundi": 20,
+  "pejzazRotacija": 90,
   "sinhronizacijaMinuta": 30,
   "oznake": {
     "sabah": "SABAH-ZORA",

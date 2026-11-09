@@ -16,17 +16,23 @@ const state = {
 };
 
 /* ---------- Orijentacija / rotacija ---------- */
+// Kad je širina veća od visine, cijeli dizajn se automatski okreće za 90°
+// i prikazuje se isti raspored kao na telefonu.
 const rotParam = new URLSearchParams(location.search).get('rotate');
-const ROT = rotParam === '90' ? 90 : (rotParam === '-90' || rotParam === '270') ? 270 : 0;
+const FORCE = rotParam === '90' ? 90 : (rotParam === '-90' || rotParam === '270') ? 270 : null;
 const root = document.documentElement;
-if (ROT) root.classList.add('rot', ROT === 90 ? 'rot90' : 'rot270');
 
 function applyLayout() {
-  const w = ROT ? innerHeight : innerWidth;
-  const h = ROT ? innerWidth : innerHeight;
-  const land = w > h;
-  root.classList.toggle('landscape', land && !ROT);
-  root.classList.toggle('portrait', !land || !!ROT);
+  const land = innerWidth > innerHeight;
+  const cfgRot = state.cfg && state.cfg.pejzazRotacija;      // 90, -90 ili 0
+  const auto = cfgRot === 0 ? 0 : (cfgRot === -90 || cfgRot === 270) ? 270 : 90;
+  const rot = FORCE !== null ? FORCE : (land ? auto : 0);
+
+  root.classList.toggle('rot', !!rot);
+  root.classList.toggle('rot90', rot === 90);
+  root.classList.toggle('rot270', rot === 270);
+  root.classList.remove('landscape');
+  root.classList.add('portrait');
   fitHadith();
 }
 addEventListener('resize', applyLayout);
@@ -48,6 +54,7 @@ async function loadAll(first) {
   try {
     const [cfg, had] = await Promise.all([getJSON('data/config.json'), getJSON('data/hadisi.json')]);
     state.cfg = cfg;
+    applyLayout();
     const year = getNow().y;
     const namaz = await loadNamaz(year);
     state.dataYear = year;
